@@ -49,10 +49,10 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zsS-K7-0bF">
-                                <rect key="frame" x="20" y="782" width="374" height="72"/>
+                                <rect key="frame" x="20" y="229.5" width="374" height="72"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="72" id="SsA-U4-bTo"/>
-                                    <constraint firstAttribute="width" constant="374" id="uzV-Ic-Wd4"/>
+                                    <constraint firstAttribute="height" constant="72" id="tEy-Aj-CiF"/>
+                                    <constraint firstAttribute="width" constant="374" id="uwK-75-OAQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -63,15 +63,17 @@
                         <constraints>
                             <constraint firstItem="zsS-K7-0bF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="3Vh-qy-SGh"/>
                             <constraint firstItem="aUP-ca-r21" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="3x1-yi-POV"/>
+                            <constraint firstItem="zsS-K7-0bF" firstAttribute="top" secondItem="AT7-It-Fyf" secondAttribute="bottom" constant="5" id="4Al-xq-UO2"/>
                             <constraint firstAttribute="bottom" secondItem="E0h-aX-oBb" secondAttribute="bottom" id="4rE-NT-GZe"/>
                             <constraint firstItem="AT7-It-Fyf" firstAttribute="height" secondItem="E0h-aX-oBb" secondAttribute="height" multiplier="0.136891" id="7oi-qY-yvk"/>
                             <constraint firstItem="E0h-aX-oBb" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="7vB-96-MsA"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="zsS-K7-0bF" secondAttribute="bottom" constant="8" symbolic="YES" id="9Fh-0o-80x"/>
                             <constraint firstItem="E0h-aX-oBb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="CN9-ZE-mQk"/>
                             <constraint firstItem="AT7-It-Fyf" firstAttribute="width" secondItem="E0h-aX-oBb" secondAttribute="width" multiplier="0.365942" id="Cvs-Ep-BSH"/>
                             <constraint firstItem="th1-Kr-XgW" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="OCL-NQ-UMw"/>
+                            <constraint firstItem="zsS-K7-0bF" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Odq-XT-rKr"/>
                             <constraint firstItem="aUP-ca-r21" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="VbQ-CT-XCJ"/>
                             <constraint firstItem="AT7-It-Fyf" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="XE0-WH-Lj3"/>
+                            <constraint firstItem="zsS-K7-0bF" firstAttribute="top" secondItem="AT7-It-Fyf" secondAttribute="bottom" constant="5" id="Yng-C5-wCY"/>
                             <constraint firstAttribute="trailing" secondItem="E0h-aX-oBb" secondAttribute="trailing" id="hub-6C-cfa"/>
                             <constraint firstItem="th1-Kr-XgW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="mHS-yD-ZBh"/>
                             <constraint firstItem="AT7-It-Fyf" firstAttribute="top" secondItem="th1-Kr-XgW" secondAttribute="bottom" constant="8" id="oLI-kX-XCq"/>
